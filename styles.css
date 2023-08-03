@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #333;
+    overflow-y: auto;
+}
+
+header h1 {
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+header nav a {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #555;
+}
+
+/* Main Content Styles */
+main {
+    margin-left: 18%;
+    
+    padding: 20px;
+    overflow-y: auto;
+    height: 95vh;
+}
+
+/* Scrollbar Styles */
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px; /* Add this line */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    border-radius: 10px; /* Add this line */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b30000;
+    border-radius: 10px; /* Add this line */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+    border-radius: 10px; /* Add this line */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #555;
+}
+
+tr:nth-child(even) {
+    background-color: #222;
+}
+
+tr:nth-child(odd) {
+    background-color: #333;
+}
+section {
+    transition: transform 0.3s ease;
+    overflow: auto;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+tr:hover {
+    background-color: #444;
+}
+button {
+    background-color: #df0712;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fa1a25;
+}
+/* h1, h2, h3 {
+    color: #c0c0c0; 
+} 
+*/
+
+p {
+    color: #a0a0a0; /* Slightly darker shade of gray */
+}
+
+#contact {
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    color: #E50914; /* Netflix red */
+}
+
+
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+button {
+    background-color: #E50914; /* Netflix red */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b20710; /* Darker shade of Netflix red */
+}
+header nav h1 {
+    color: #9c9797; /* Netflix red */
+}
+
